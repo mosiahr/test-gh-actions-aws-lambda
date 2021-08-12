@@ -1,4 +1,4 @@
-from app import hello
+from app import main
 
 def lambda_handler(event, context):
-    return hello()
+    return main()
